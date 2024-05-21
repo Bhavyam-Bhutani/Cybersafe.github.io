@@ -1,0 +1,23 @@
+#password {
+    border: 1px solid #e80c0c;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #strength-message {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .weak {
+    border-color: red;
+  }
+  
+  .medium {
+    border-color: orange;
+  }
+  
+  .strong {
+    border-color: green;
+  }
+  
