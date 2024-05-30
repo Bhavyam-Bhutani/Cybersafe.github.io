@@ -76,4 +76,15 @@ function checkPasswordStrength() {
         break;
     }
   }
-  
+  const aboutBtn = document.getElementById('about-btn');
+const servicesBtn = document.getElementById('services-btn');
+const aboutSection = document.getElementById('about');
+const servicesSection = document.getElementById('services');
+
+aboutBtn.addEventListener('click', () => {
+  aboutSection.classList.toggle('hidden');
+});
+
+servicesBtn.addEventListener('click', () => {
+  servicesSection.classList.toggle('hidden');
+});
